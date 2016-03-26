@@ -1,0 +1,23 @@
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               PCDM
+tagline:             Portland Common Data Model
+url:                 http://pcdm.org
+baseurl:             ''
+
+# About/contact
+author:
+  name:              Nick Ruest
+  url:               https://twitter.com/pcdmorg
+  email:             ruestn@yorku.ca
+
+# Custom vars
+github.repo:         'https://github.com/duraspace/pcdm'
+wiki:                'https://github.com/duraspace/pcdm/wiki'
+email.list:          'https://groups.google.com/d/forum/pcdm'
+irc.discussion:      '#pcdm on irc.freenode.net'
