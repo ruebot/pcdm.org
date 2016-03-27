@@ -20,19 +20,19 @@
       </div>
 
       <div class="container content">
-        <p>The Portland Common Data Model (PCDM) is a flexible, extensible domain model that is intended to underlie a wide array of repository and DAMS applications. The primary objective of this model is to establish a framework that developers of tools [e.g., Hydra-based engines, such as Sufia, Curate, Worthwhile, Avalon; Islandora; custom Fedora sites) can use for working with models in a general way, allowing adopters to easily use custom models with any tool. Given this interoperability goal, the initial work has been focused on structural metadata and access control, since these are the key actionable metadata.</p>
+        <p>The Portland Common Data Model (PCDM) is a flexible, extensible domain model that is intended to underlie a wide array of repository and DAMS applications. The primary objective of this model is to establish a framework that developers of tools [e.g., <a href="http://projecthydra.org/" target="_blank">Hydra</a>-based engines, such as Sufia, Curate, Worthwhile, Avalon; <a href="http://islandora.ca/" target="_blank">Islandora</a>; custom <a href="http://fcrepo.org/" target="_blank">Fedora</a> sites) can use for working with models in a general way, allowing adopters to easily use custom models with any tool. Given this interoperability goal, the initial work has been focused on structural metadata and access control, since these are the key actionable metadata.</p>
         <p>To encourage adoption, this model must support the most complex use cases, which include rich hierarchies of inter-related collections and works, but also elegantly support the simplest use cases, such as a single user-contributed file with a few fields of metadata. It must provide a compact interface that tool developers can easily implement, but also be extensible enough for adopters to customize to their local needs.</p>
         <p>As the community migrates to Fedora 4, much of our metadata is migrating to RDF. This model encourages linked data best practices, such as using URIs to identify all resources, using widely-used vocabularies where possible, and subclassing existing classes and properties when creating new terms.</p>
         <h2>Ontology and Extensions</h2>
           <ul>
-            <li><a href="http://pcdm.org/models#" target="_blank">http://pcdm.org/models#</a></li>
-            <li>file-format-types.rdf</li>
-            <li>rights</li>
-            <li>use</li>
-            <li>works</li>
+            <li><a href="http://pcdm.org/models#" target="_blank">PCDM Models Ontology</a></li>
+            <li><a href="http://pcdm.org/use#" target="_blank">PCDM Use Ontology</a></li>
+            <li><a href="http://pcdm.org/rights#" target="_blank">PCDM Rights Ontology</a></li>
           </ul>
         <h2>How to get involved?</h2>
-          <p>...something? crib from here? https://github.com/Islandora/islandora/blob/7.x/CONTRIBUTING.md</p>
+          <p>All contributions are welcome: use-cases, documentation, code, patches, bug reports, feature requests, etc. You do not need to be a programmer to speak up!</p>
+          <p>The GitHub repository for PCDM lives <a href="{{ site.githubrepo }}" target="_blank">here</a>. There you will also find a <a href="{{ site.wiki }}" target="_blank">wiki</a> with detailed documentation, and an <a href="https://github.com/duraspace/pcdm/issues" target="_blank">issue queue</a> that you're welcome to contribute to.</p>
+          <p>In addition to the GitHub repository, you can also interact with the community via our <a href="{{ site.emaillist }}" target="_blank">Google Group</a>.</p>
         {{ content }}
       </div>
     </div>
