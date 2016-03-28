@@ -24,3 +24,4 @@ notifications:
       - "escowles@ticklefish.org"
     on_success: "change"
     on_failure: "change"
+  irc: "irc.freenode.org#pcdm"
