@@ -1,0 +1,26 @@
+sudo: false
+
+before_install:
+  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+install:
+  - bundle install
+
+script: rake ci
+
+# environment
+language: ruby
+rvm:
+  - "2.3"
+
+branches:
+  - 'master'
+
+notifications:
+  email:
+    recipients:
+      - "ruestn@gmail.com"
+      - "jpstroop@gmail.com"
+      - "escowles@ticklefish.org"
+    on_success: "change"
+    on_failure: "change"
