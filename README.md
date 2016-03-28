@@ -19,12 +19,6 @@ To run the site at http://localhost:4000:
 rake dev
 ```
 
-To run the site at http://localhost:4000:
-
-```
-rake dev
-```
-
 To build the site in ./_site
 
 ```
