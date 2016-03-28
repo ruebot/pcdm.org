@@ -7,32 +7,26 @@ Home page for PCDM
 
 ## Installation and Testing
 
-Assumes recent versions of Ruby and Node are installed. Clone the site and then:
+Assumes a recent version of Ruby is installed. Clone the site and then:
 
 ```bash
-:~/pcdm.org$ bundle install
+$ bundle install
 ```
 
 To run the site at http://localhost:4000:
 
-```
-rake dev
-```
-
-To run the site at http://localhost:4000:
-
-```
-rake dev
+```bash
+$ rake dev
 ```
 
-To build the site in ./_site
+To build the site in ./_site:
 
-```
-rake build
+```bash
+$ rake build
 ```
 
-To run the tests
+To run the tests:
 
-```
-rake ci
+```bash
+$ rake ci
 ```
