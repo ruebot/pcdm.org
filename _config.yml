@@ -4,6 +4,11 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
+source:              source
+
+gems:
+  - jekyll-sitemap
+
 # Setup
 title:               PCDM
 tagline:             Portland Common Data Model
